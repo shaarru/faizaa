@@ -32,22 +32,38 @@ body {
 }
 
 .night::before {
-    content: "I can't live without you Faizaa";
+    content: "I can't live without you Faiza";
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 5vmin;
-    /* Increase font size */
     color: rgba(255, 255, 255, 1);
-    /* Fully visible text */
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 255, 250, 0.7);
-    /* Defined shadow */
     z-index: 1;
     pointer-events: none;
     animation: dimToLight 5s ease-in-out 1 forwards;
-    white-space: nowrap; /* Prevent text from wrapping */
+    white-space: nowrap;
+    /* Keep it on one line */
+}
+
+.night::after {
+    content: "Even if we have to be in ruins";
+    position: absolute;
+    top: 35%;
+    /* Adjust position for second line */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vmin;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 255, 250, 0.7);
+    z-index: 1;
+    pointer-events: none;
+    animation: dimToLight 5s ease-in-out 1 forwards;
+    white-space: nowrap;
+    /* Keep it on one line */
 }
 
 
