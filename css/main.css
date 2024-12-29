@@ -37,17 +37,16 @@ body {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3vmin;
-    /* Adjust the size as needed */
-    color: rgba(255, 255, 255, 0);
-    /* Start completely invisible */
+    font-size: 5vmin;
+    /* Increase font size */
+    color: rgba(255, 255, 255, 1);
+    /* Fully visible text */
     font-weight: bold;
-    text-shadow: 0 0 0 rgba(0, 255, 250, 0);
-    /* No shadow in the dim state */
+    text-shadow: 2px 2px 5px rgba(0, 255, 250, 0.7);
+    /* Defined shadow */
     z-index: 1;
     pointer-events: none;
     animation: dimToLight 5s ease-in-out 1 forwards;
-
 }
 
 @keyframes dimToLight {
