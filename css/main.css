@@ -46,8 +46,8 @@ body {
     /* No shadow in the dim state */
     z-index: 1;
     pointer-events: none;
-    animation: dimToLight 3s ease-in-out 1 forwards;
-    /* Run once and keep the final state */
+    animation: dimToLight 5s ease-in-out 1 forwards;
+
 }
 
 @keyframes dimToLight {
