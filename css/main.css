@@ -47,7 +47,9 @@ body {
     z-index: 1;
     pointer-events: none;
     animation: dimToLight 5s ease-in-out 1 forwards;
+    white-space: nowrap; /* Prevent text from wrapping */
 }
+
 
 @keyframes dimToLight {
     0% {
